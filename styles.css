@@ -11,7 +11,7 @@ footer{
 }
 
 .top{
-    display: block;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
@@ -19,4 +19,9 @@ footer{
 
 .link-boxes{
     display: flex;
+}
+.media-icons{
+	display:flex;
+	justify-content: space-between;
+	gap:10px;
 }
